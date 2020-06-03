@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D833EE9524737D890023ED44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EE9424737D890023ED44 /* AppDelegate.m */; };
+		D833EE9824737D890023ED44 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EE9724737D890023ED44 /* SceneDelegate.m */; };
+		D833EEB324737FF70023ED44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D833EEAD24737FF70023ED44 /* Assets.xcassets */; };
+		D833EEB424737FF70023ED44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D833EEAE24737FF70023ED44 /* LaunchScreen.storyboard */; };
+		D833EEB524737FF70023ED44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D833EEB024737FF70023ED44 /* Main.storyboard */; };
+		D833EEB624737FF70023ED44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EEB224737FF70023ED44 /* main.m */; };
+		D833EEBA247380D80023ED44 /* ODLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EEB9247380D80023ED44 /* ODLHomeViewController.m */; };
+		D833EEBE247390360023ED44 /* ODLSceneListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EEBD247390360023ED44 /* ODLSceneListViewController.m */; };
+		D833EECB2473A9C40023ED44 /* ODLNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EEC82473A9C30023ED44 /* ODLNewsTableViewCell.m */; };
+		D833EECC2473A9C40023ED44 /* ODLNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D833EEC92473A9C30023ED44 /* ODLNewsTableViewCell.xib */; };
+		D833EECE2473ABC00023ED44 /* NewsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D833EECD2473ABC00023ED44 /* NewsList.plist */; };
+		D833EED32473CFFA0023ED44 /* ODLHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EED12473CFFA0023ED44 /* ODLHomeCell.m */; };
+		D833EED42473CFFA0023ED44 /* ODLHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D833EED22473CFFA0023ED44 /* ODLHomeCell.xib */; };
+		D833EED92473E4EB0023ED44 /* ODLWakeUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EED72473E4EB0023ED44 /* ODLWakeUpViewController.m */; };
+		D833EEDA2473E4EB0023ED44 /* ODLWakeUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D833EED82473E4EB0023ED44 /* ODLWakeUpViewController.xib */; };
+		D833EEE32474BF180023ED44 /* ODLSceneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D833EEE12474BF180023ED44 /* ODLSceneDetailViewController.m */; };
+		D833EEE42474BF180023ED44 /* ODLSceneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D833EEE22474BF180023ED44 /* ODLSceneDetailViewController.xib */; };
+		D83DEB662478BE7D00F710F1 /* UIColor+ODExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DEB642478BE7D00F710F1 /* UIColor+ODExtension.m */; };
+		D84C88BD247FB10F00BB7051 /* OdinDomainSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C887E247FB10F00BB7051 /* OdinDomainSecurity.framework */; };
+		D84C88BF247FB11000BB7051 /* OdinShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C8885247FB10F00BB7051 /* OdinShareSDKUI.framework */; };
+		D84C88C0247FB11000BB7051 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D84C8886247FB10F00BB7051 /* ShareSDKUI.bundle */; };
+		D84C88C1247FB11000BB7051 /* OdinShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C8888247FB10F00BB7051 /* OdinShareSDK.framework */; };
+		D84C88C2247FB11000BB7051 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C888B247FB10F00BB7051 /* libSocialQQ.a */; };
+		D84C88C3247FB11000BB7051 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C888E247FB10F00BB7051 /* TencentOpenAPI.framework */; };
+		D84C88CE247FB11000BB7051 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D84C88A8247FB10F00BB7051 /* README.txt */; };
+		D84C88CF247FB11000BB7051 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88AA247FB10F00BB7051 /* libWeChatSDK.a */; };
+		D84C88D0247FB11000BB7051 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88AB247FB10F00BB7051 /* libSocialWeChat.a */; };
+		D84C88D8247FBF3500BB7051 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88D7247FBF2D00BB7051 /* libz.tbd */; };
+		D84C88DA247FBF4200BB7051 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88D9247FBF3C00BB7051 /* libc++.tbd */; };
+		D84C88DC247FBF6700BB7051 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88DB247FBF5B00BB7051 /* libsqlite3.tbd */; };
+		D84C88DF247FBFF500BB7051 /* OdinLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C88DE247FBFF500BB7051 /* OdinLinkSDK.framework */; };
+		D8AADA582487760100187D35 /* ODNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AADA562487760100187D35 /* ODNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D833EE9024737D890023ED44 /* ODLinkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODLinkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D833EE9324737D890023ED44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D833EE9424737D890023ED44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D833EE9624737D890023ED44 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D833EE9724737D890023ED44 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D833EEA424737D8B0023ED44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D833EEAD24737FF70023ED44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D833EEAF24737FF70023ED44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D833EEB124737FF70023ED44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D833EEB224737FF70023ED44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D833EEB8247380D80023ED44 /* ODLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLHomeViewController.h; sourceTree = "<group>"; };
+		D833EEB9247380D80023ED44 /* ODLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODLHomeViewController.m; sourceTree = "<group>"; };
+		D833EEBC247390360023ED44 /* ODLSceneListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLSceneListViewController.h; sourceTree = "<group>"; };
+		D833EEBD247390360023ED44 /* ODLSceneListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODLSceneListViewController.m; sourceTree = "<group>"; };
+		D833EEC82473A9C30023ED44 /* ODLNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODLNewsTableViewCell.m; sourceTree = "<group>"; };
+		D833EEC92473A9C30023ED44 /* ODLNewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ODLNewsTableViewCell.xib; sourceTree = "<group>"; };
+		D833EECA2473A9C30023ED44 /* ODLNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODLNewsTableViewCell.h; sourceTree = "<group>"; };
+		D833EECD2473ABC00023ED44 /* NewsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsList.plist; sourceTree = "<group>"; };
+		D833EED02473CFFA0023ED44 /* ODLHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLHomeCell.h; sourceTree = "<group>"; };
+		D833EED12473CFFA0023ED44 /* ODLHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODLHomeCell.m; sourceTree = "<group>"; };
+		D833EED22473CFFA0023ED44 /* ODLHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ODLHomeCell.xib; sourceTree = "<group>"; };
+		D833EED62473E4EB0023ED44 /* ODLWakeUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLWakeUpViewController.h; sourceTree = "<group>"; };
+		D833EED72473E4EB0023ED44 /* ODLWakeUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODLWakeUpViewController.m; sourceTree = "<group>"; };
+		D833EED82473E4EB0023ED44 /* ODLWakeUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ODLWakeUpViewController.xib; sourceTree = "<group>"; };
+		D833EEDF2474BB9C0023ED44 /* ODLHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLHeader.h; sourceTree = "<group>"; };
+		D833EEE02474BF180023ED44 /* ODLSceneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODLSceneDetailViewController.h; sourceTree = "<group>"; };
+		D833EEE12474BF180023ED44 /* ODLSceneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODLSceneDetailViewController.m; sourceTree = "<group>"; };
+		D833EEE22474BF180023ED44 /* ODLSceneDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ODLSceneDetailViewController.xib; sourceTree = "<group>"; };
+		D83DEB642478BE7D00F710F1 /* UIColor+ODExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ODExtension.m"; sourceTree = "<group>"; };
+		D83DEB652478BE7D00F710F1 /* UIColor+ODExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ODExtension.h"; sourceTree = "<group>"; };
+		D84C881E247F926400BB7051 /* ODLinkSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ODLinkSample.entitlements; sourceTree = "<group>"; };
+		D84C887E247FB10F00BB7051 /* OdinDomainSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OdinDomainSecurity.framework; sourceTree = "<group>"; };
+		D84C8885247FB10F00BB7051 /* OdinShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OdinShareSDKUI.framework; sourceTree = "<group>"; };
+		D84C8886247FB10F00BB7051 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		D84C8888247FB10F00BB7051 /* OdinShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OdinShareSDK.framework; sourceTree = "<group>"; };
+		D84C888B247FB10F00BB7051 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		D84C888C247FB10F00BB7051 /* OdinSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdinSocialQQHandler.h; sourceTree = "<group>"; };
+		D84C888E247FB10F00BB7051 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D84C88A6247FB10F00BB7051 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		D84C88A7247FB10F00BB7051 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		D84C88A8247FB10F00BB7051 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D84C88A9247FB10F00BB7051 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		D84C88AA247FB10F00BB7051 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		D84C88AB247FB10F00BB7051 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		D84C88AC247FB10F00BB7051 /* OdinSocialWeChatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdinSocialWeChatHandler.h; sourceTree = "<group>"; };
+		D84C88D7247FBF2D00BB7051 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D84C88D9247FBF3C00BB7051 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D84C88DB247FBF5B00BB7051 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D84C88DE247FBFF500BB7051 /* OdinLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OdinLinkSDK.framework; sourceTree = "<group>"; };
+		D8AADA562487760100187D35 /* ODNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODNavigationViewController.m; sourceTree = "<group>"; };
+		D8AADA572487760100187D35 /* ODNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODNavigationViewController.h; sourceTree = "<group>"; };
+		D8AADA5924877AFC00187D35 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D8AADA5A24877AFC00187D35 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D833EE8D24737D890023ED44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84C88CF247FB11000BB7051 /* libWeChatSDK.a in Frameworks */,
+				D84C88D0247FB11000BB7051 /* libSocialWeChat.a in Frameworks */,
+				D84C88C2247FB11000BB7051 /* libSocialQQ.a in Frameworks */,
+				D84C88C3247FB11000BB7051 /* TencentOpenAPI.framework in Frameworks */,
+				D84C88DA247FBF4200BB7051 /* libc++.tbd in Frameworks */,
+				D84C88DC247FBF6700BB7051 /* libsqlite3.tbd in Frameworks */,
+				D84C88D8247FBF3500BB7051 /* libz.tbd in Frameworks */,
+				D84C88BF247FB11000BB7051 /* OdinShareSDKUI.framework in Frameworks */,
+				D84C88C1247FB11000BB7051 /* OdinShareSDK.framework in Frameworks */,
+				D84C88BD247FB10F00BB7051 /* OdinDomainSecurity.framework in Frameworks */,
+				D84C88DF247FBFF500BB7051 /* OdinLinkSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D833EE8724737D890023ED44 = {
+			isa = PBXGroup;
+			children = (
+				D833EE9224737D890023ED44 /* ODLinkSDKSample */,
+				D833EE9124737D890023ED44 /* Products */,
+				D84C88D6247FBF2C00BB7051 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D833EE9124737D890023ED44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D833EE9024737D890023ED44 /* ODLinkSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D833EE9224737D890023ED44 /* ODLinkSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				D84C887C247FB10F00BB7051 /* SDK */,
+				D84C881E247F926400BB7051 /* ODLinkSample.entitlements */,
+				D83DEB632478BE7D00F710F1 /* UItils */,
+				D833EED52473E4CA0023ED44 /* WakeUp */,
+				D833EEBB2473901D0023ED44 /* Scence */,
+				D833EEB7247380780023ED44 /* Home */,
+				D833EEAC24737FF70023ED44 /* Supporting Files */,
+				D833EE9324737D890023ED44 /* AppDelegate.h */,
+				D833EE9424737D890023ED44 /* AppDelegate.m */,
+				D8AADA572487760100187D35 /* ODNavigationViewController.h */,
+				D8AADA562487760100187D35 /* ODNavigationViewController.m */,
+				D833EE9624737D890023ED44 /* SceneDelegate.h */,
+				D833EE9724737D890023ED44 /* SceneDelegate.m */,
+				D833EEA424737D8B0023ED44 /* Info.plist */,
+				D833EEDF2474BB9C0023ED44 /* ODLHeader.h */,
+			);
+			path = ODLinkSDKSample;
+			sourceTree = "<group>";
+		};
+		D833EEAC24737FF70023ED44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D833EECD2473ABC00023ED44 /* NewsList.plist */,
+				D833EEAD24737FF70023ED44 /* Assets.xcassets */,
+				D833EEAE24737FF70023ED44 /* LaunchScreen.storyboard */,
+				D833EEB024737FF70023ED44 /* Main.storyboard */,
+				D833EEB224737FF70023ED44 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D833EEB7247380780023ED44 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D833EECF2473CFDD0023ED44 /* View */,
+				D833EEB8247380D80023ED44 /* ODLHomeViewController.h */,
+				D833EEB9247380D80023ED44 /* ODLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D833EEBB2473901D0023ED44 /* Scence */ = {
+			isa = PBXGroup;
+			children = (
+				D833EEC22473A9630023ED44 /* View */,
+				D833EEBC247390360023ED44 /* ODLSceneListViewController.h */,
+				D833EEBD247390360023ED44 /* ODLSceneListViewController.m */,
+				D833EEE02474BF180023ED44 /* ODLSceneDetailViewController.h */,
+				D833EEE12474BF180023ED44 /* ODLSceneDetailViewController.m */,
+				D833EEE22474BF180023ED44 /* ODLSceneDetailViewController.xib */,
+			);
+			path = Scence;
+			sourceTree = "<group>";
+		};
+		D833EEC22473A9630023ED44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D833EECA2473A9C30023ED44 /* ODLNewsTableViewCell.h */,
+				D833EEC82473A9C30023ED44 /* ODLNewsTableViewCell.m */,
+				D833EEC92473A9C30023ED44 /* ODLNewsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D833EECF2473CFDD0023ED44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D833EED02473CFFA0023ED44 /* ODLHomeCell.h */,
+				D833EED12473CFFA0023ED44 /* ODLHomeCell.m */,
+				D833EED22473CFFA0023ED44 /* ODLHomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D833EED52473E4CA0023ED44 /* WakeUp */ = {
+			isa = PBXGroup;
+			children = (
+				D833EED62473E4EB0023ED44 /* ODLWakeUpViewController.h */,
+				D833EED72473E4EB0023ED44 /* ODLWakeUpViewController.m */,
+				D833EED82473E4EB0023ED44 /* ODLWakeUpViewController.xib */,
+			);
+			path = WakeUp;
+			sourceTree = "<group>";
+		};
+		D83DEB632478BE7D00F710F1 /* UItils */ = {
+			isa = PBXGroup;
+			children = (
+				D83DEB642478BE7D00F710F1 /* UIColor+ODExtension.m */,
+				D83DEB652478BE7D00F710F1 /* UIColor+ODExtension.h */,
+			);
+			path = UItils;
+			sourceTree = "<group>";
+		};
+		D84C887C247FB10F00BB7051 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D84C88DD247FBFF500BB7051 /* OdinLink */,
+				D84C887D247FB10F00BB7051 /* Require */,
+				D84C8883247FB10F00BB7051 /* OdinShare */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		D84C887D247FB10F00BB7051 /* Require */ = {
+			isa = PBXGroup;
+			children = (
+				D84C887E247FB10F00BB7051 /* OdinDomainSecurity.framework */,
+			);
+			path = Require;
+			sourceTree = "<group>";
+		};
+		D84C8883247FB10F00BB7051 /* OdinShare */ = {
+			isa = PBXGroup;
+			children = (
+				D84C8884247FB10F00BB7051 /* UI */,
+				D84C8887247FB10F00BB7051 /* Core */,
+				D84C8889247FB10F00BB7051 /* Social */,
+			);
+			path = OdinShare;
+			sourceTree = "<group>";
+		};
+		D84C8884247FB10F00BB7051 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D84C8885247FB10F00BB7051 /* OdinShareSDKUI.framework */,
+				D84C8886247FB10F00BB7051 /* ShareSDKUI.bundle */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D84C8887247FB10F00BB7051 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D84C8888247FB10F00BB7051 /* OdinShareSDK.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D84C8889247FB10F00BB7051 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				D84C888A247FB10F00BB7051 /* SocialQQ */,
+				D84C88A4247FB10F00BB7051 /* SocialWeChat */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		D84C888A247FB10F00BB7051 /* SocialQQ */ = {
+			isa = PBXGroup;
+			children = (
+				D84C888B247FB10F00BB7051 /* libSocialQQ.a */,
+				D84C888C247FB10F00BB7051 /* OdinSocialQQHandler.h */,
+				D84C888D247FB10F00BB7051 /* QQSDK */,
+			);
+			path = SocialQQ;
+			sourceTree = "<group>";
+		};
+		D84C888D247FB10F00BB7051 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D84C888E247FB10F00BB7051 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		D84C88A4247FB10F00BB7051 /* SocialWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				D84C88A5247FB10F00BB7051 /* WeChatSDK1.8.4 */,
+				D84C88AB247FB10F00BB7051 /* libSocialWeChat.a */,
+				D84C88AC247FB10F00BB7051 /* OdinSocialWeChatHandler.h */,
+			);
+			path = SocialWeChat;
+			sourceTree = "<group>";
+		};
+		D84C88A5247FB10F00BB7051 /* WeChatSDK1.8.4 */ = {
+			isa = PBXGroup;
+			children = (
+				D84C88A6247FB10F00BB7051 /* WXApi.h */,
+				D84C88A7247FB10F00BB7051 /* WXApiObject.h */,
+				D84C88A8247FB10F00BB7051 /* README.txt */,
+				D84C88A9247FB10F00BB7051 /* WechatAuthSDK.h */,
+				D84C88AA247FB10F00BB7051 /* libWeChatSDK.a */,
+			);
+			path = WeChatSDK1.8.4;
+			sourceTree = "<group>";
+		};
+		D84C88D6247FBF2C00BB7051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84C88DB247FBF5B00BB7051 /* libsqlite3.tbd */,
+				D84C88D9247FBF3C00BB7051 /* libc++.tbd */,
+				D84C88D7247FBF2D00BB7051 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D84C88DD247FBFF500BB7051 /* OdinLink */ = {
+			isa = PBXGroup;
+			children = (
+				D84C88DE247FBFF500BB7051 /* OdinLinkSDK.framework */,
+			);
+			path = OdinLink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D833EE8F24737D890023ED44 /* ODLinkSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D833EEA924737D8B0023ED44 /* Build configuration list for PBXNativeTarget "ODLinkSDKSample" */;
+			buildPhases = (
+				D833EE8C24737D890023ED44 /* Sources */,
+				D833EE8D24737D890023ED44 /* Frameworks */,
+				D833EE8E24737D890023ED44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODLinkSDKSample;
+			productName = ODLinkSDKSample;
+			productReference = D833EE9024737D890023ED44 /* ODLinkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D833EE8824737D890023ED44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = odin;
+				TargetAttributes = {
+					D833EE8F24737D890023ED44 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D833EE8B24737D890023ED44 /* Build configuration list for PBXProject "ODLinkSDKSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D833EE8724737D890023ED44;
+			productRefGroup = D833EE9124737D890023ED44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D833EE8F24737D890023ED44 /* ODLinkSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D833EE8E24737D890023ED44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D833EEE42474BF180023ED44 /* ODLSceneDetailViewController.xib in Resources */,
+				D833EEB324737FF70023ED44 /* Assets.xcassets in Resources */,
+				D833EEDA2473E4EB0023ED44 /* ODLWakeUpViewController.xib in Resources */,
+				D84C88CE247FB11000BB7051 /* README.txt in Resources */,
+				D833EECE2473ABC00023ED44 /* NewsList.plist in Resources */,
+				D833EED42473CFFA0023ED44 /* ODLHomeCell.xib in Resources */,
+				D833EEB524737FF70023ED44 /* Main.storyboard in Resources */,
+				D833EECC2473A9C40023ED44 /* ODLNewsTableViewCell.xib in Resources */,
+				D84C88C0247FB11000BB7051 /* ShareSDKUI.bundle in Resources */,
+				D833EEB424737FF70023ED44 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D833EE8C24737D890023ED44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83DEB662478BE7D00F710F1 /* UIColor+ODExtension.m in Sources */,
+				D833EED32473CFFA0023ED44 /* ODLHomeCell.m in Sources */,
+				D833EEE32474BF180023ED44 /* ODLSceneDetailViewController.m in Sources */,
+				D833EECB2473A9C40023ED44 /* ODLNewsTableViewCell.m in Sources */,
+				D833EEBE247390360023ED44 /* ODLSceneListViewController.m in Sources */,
+				D833EEB624737FF70023ED44 /* main.m in Sources */,
+				D8AADA582487760100187D35 /* ODNavigationViewController.m in Sources */,
+				D833EED92473E4EB0023ED44 /* ODLWakeUpViewController.m in Sources */,
+				D833EEBA247380D80023ED44 /* ODLHomeViewController.m in Sources */,
+				D833EE9524737D890023ED44 /* AppDelegate.m in Sources */,
+				D833EE9824737D890023ED44 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D833EEAE24737FF70023ED44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D833EEAF24737FF70023ED44 /* Base */,
+				D8AADA5924877AFC00187D35 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D833EEB024737FF70023ED44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D833EEB124737FF70023ED44 /* Base */,
+				D8AADA5A24877AFC00187D35 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D833EEA724737D8B0023ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D833EEA824737D8B0023ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D833EEAA24737D8B0023ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ODLinkSDKSample/ODLinkSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVSH9W54D7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/Require",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/UI",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Core",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialQQ/QQSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialFacebook/FacebookShare",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialDingTalk/DingTalk",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinLink",
+				);
+				INFOPLIST_FILE = ODLinkSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/ODInstallSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialQQ",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SoicalInstagram",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialFacebook",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialSina",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialSina/Weibo_SDK/libWeiboSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialWeChat/WeChatSDK1.8.4",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialWeChat",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialAliPay",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialAliPay/APOpenSdk",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialDingTalk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odin.ODLinkSDKSample;
+				PRODUCT_NAME = ODLinkSample;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D833EEAB24737D8B0023ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ODLinkSDKSample/ODLinkSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVSH9W54D7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/Require",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/UI",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Core",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialQQ/QQSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialFacebook/FacebookShare",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialDingTalk/DingTalk",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinLink",
+				);
+				INFOPLIST_FILE = ODLinkSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/ODInstallSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialQQ",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SoicalInstagram",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialFacebook",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialSina",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialSina/Weibo_SDK/libWeiboSDK",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialWeChat/WeChatSDK1.8.4",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialWeChat",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialAliPay",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialAliPay/APOpenSdk",
+					"$(PROJECT_DIR)/ODLinkSDKSample/SDK/OdinShare/Social/SocialDingTalk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odin.ODLinkSDKSample;
+				PRODUCT_NAME = ODLinkSample;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D833EE8B24737D890023ED44 /* Build configuration list for PBXProject "ODLinkSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D833EEA724737D8B0023ED44 /* Debug */,
+				D833EEA824737D8B0023ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D833EEA924737D8B0023ED44 /* Build configuration list for PBXNativeTarget "ODLinkSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D833EEAA24737D8B0023ED44 /* Debug */,
+				D833EEAB24737D8B0023ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D833EE8824737D890023ED44 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module OdinLinkSDK {
+  umbrella header "OdinLinkSDK.h"
+
+  export *
+  module * { export * }
+}
